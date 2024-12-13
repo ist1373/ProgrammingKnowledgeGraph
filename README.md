@@ -24,10 +24,35 @@ Outperformance of state-of-the-art models by 34% on MBPP.
 
 ### Prerequisites
 Python 3.8+
-Neo4j for knowledge graph management.
+
+Neo4j, APOC and Graph Data Science for knowledge graph management.
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+`function_analyzer.py` is responsible to extract code blocks.
+
+By `function_enhancer.py` you can enhance python function blocks using FIM objective function.
+
+`knowledge_programming_graph.py` is used to generate nodes and realtions corresponded to extracted function block in json files.
+
+Using `neo4j_graph.ipynb` you can use the previous json files to create a neo4j knowledge graph and retrieve similar path and contents of HumanEval and MBPP benchmarks. The results are save on augmented problems folder.
+
+
+In `code_generation.py` you can load this augmented problems in prompts and evaluate the result of different models when they are augmented using PKG.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```sql
+@article{your_paper,
+  title={Context-Augmented Code Generation Using Programming Knowledge Graphs},
+  author={Iman Saberi and Fatemeh Fard},
+  year={2024}
+}
+```
+
