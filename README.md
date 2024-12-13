@@ -1,6 +1,6 @@
 # Context-Augmented Code Generation Using Programming Knowledge Graphs
 
-This repository accompanies the research paper "Context-Augmented Code Generation Using Programming Knowledge Graphs" and provides the implementation for a novel framework leveraging a Programming Knowledge Graph (PKG) to enhance code generation using Retrieval-Augmented Generation (RAG).
+This repository accompanies the research paper ["Context-Augmented Code Generation Using Programming Knowledge Graphs"](https://arxiv.org/pdf/2410.18251) and provides the implementation for a novel framework leveraging a Programming Knowledge Graph (PKG) to enhance code generation using Retrieval-Augmented Generation (RAG).
 
 Overview
 Large Language Models (LLMs) and Code-LLMs (CLLMs) excel in code generation tasks but struggle with complex problems due to irrelevant or incomplete contexts. This project introduces a PKG-based framework to address these challenges by:
