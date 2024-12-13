@@ -9,6 +9,9 @@ Large Language Models (LLMs) and Code-LLMs (CLLMs) excel in code generation task
 **Re-ranking Mechanism:** Reducing hallucinations by selectively integrating retrieved context with non-RAG solutions.
 **Fill-in-the-Middle (FIM) Enhancement:** Automatically augmenting code with comments and docstrings for better generation accuracy.
 
+![Alt Text](./images/overview.png)
+
+
 ## Key Contributions
 **PKG-Based Retrieval:** Semantic representation and retrieval of code at fine granularity levels (block-wise and function-wise).
 **Tree Pruning:** Improved retrieval precision by pruning irrelevant branches in the knowledge graph.
